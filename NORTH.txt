@@ -1,0 +1,27 @@
+joela@N14C4WH64 MINGW64 /Coeur (Lum)
+$ git commit -m "Zaerto"
+[Lum 3ff9e7f] Zaerto
+ 1 file changed, 8 insertions(+)
+ create mode 100644 LO.txt
+
+joela@N14C4WH64 MINGW64 /Coeur (Lum)
+$ git merge Lumière
+Already up to date.
+
+joela@N14C4WH64 MINGW64 /Coeur (Lum)
+$ git checkout Lumière
+Switched to branch 'Lumière'
+
+joela@N14C4WH64 MINGW64 /Coeur (Lumière)
+$ git push origin Lumière
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Joel-NKOTO/DossierNew.git/'
+
+joela@N14C4WH64 MINGW64 /Coeur (Lumière)
+$ git merge Lum
+Updating 76afdc6..3ff9e7f
+Fast-forward
+ LO.txt | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 LO.txt
